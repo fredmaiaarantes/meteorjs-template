@@ -16,35 +16,38 @@ It's a template project ready for you to implement your business idea. It includ
 - 100 Score on Lighthouse
 ![Lighthouse Report](README-Assets/lighthouse-score.png)
 
-## Dependencies
+### Dependencies
 
-### Npm packages for React:
+#### Npm packages for React
 
 - react
 - react-dom
 - react-router-dom
 - react-helmet
 
-### Npm packages for TailwindCSS:
+#### Npm packages for TailwindCSS
+
 - tailwindcss
 - @headlessui/react
 - @heroicons/react
 
-### React packages:
+#### React packages
+
 - [react-meteor-data](https://github.com/meteor/react-packages/tree/master/packages/react-meteor-data)
 
-### SSR packages:
+#### SSR packages
+
 - [react-router-ssr](https://github.com/Meteor-Community-Packages/react-router-ssr)
 
-### Authentication packages:
+#### Authentication packages
+
 - [quave:accounts-passwordless-react](https://github.com/quavedev/accounts-passwordless-react)
 
-### Enmail packages:
+#### Email packages
+
 - [quave:email-postmark](https://github.com/quavedev/email-postmark)
 
-## Set up your project
-
-### Replace our placeholders
+### Set up your project
 
 #### Inform your app info
 - Fill the fields inside the `./private/settings.dev.json` in `public.appInfo` to make sure your app works properly.
@@ -66,9 +69,3 @@ Option 2: Use the CLI and run `meteor npm run deploy`. Remember to change the do
 ## Updating your project
 
 Follow our changes reading our [CHANGELOG](CHANGELOG.md).
-
-## Features
-
-- Pages styled with TailwindCSS and SSR
-- Authentication Page with passwordless
-- Deploy on Meteor Cloud running `meteor npm run deploy`
