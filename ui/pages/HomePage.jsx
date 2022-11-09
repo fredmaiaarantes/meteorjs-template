@@ -2,8 +2,20 @@ import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
 
-export const HomePage = () => {
+const LoggedInMessage = () => {
   const userId = useTracker(() => Meteor.userId());
+  if(!userId) return null;
+
+  return (
+    <div className="mt-5">
+      <span className="inline-flex items-center rounded-full bg-yellow-300 px-2.5 py-0.5 text-xs font-medium text-gray-800">
+        You can see this message only if you are logged in.
+      </span>
+    </div>
+  )
+}
+
+export const HomePage = () => {
   return (
     <div className="bg-gradient-to-r from-indigo-900 to-indigo-700">
       <div className="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
@@ -15,11 +27,7 @@ export const HomePage = () => {
           Starter template built with MeteorJS + React with SSR + Tailwind.
           Authentication with Passwordless is ready to use, try Signing In.
         </p>
-        {userId ? (
-          <p className="mt-4 text-xl leading-8 text-indigo-200">
-            You can see this message only if you are loggerd in.
-          </p>
-        ) : null}
+        <LoggedInMessage />
         <a
           target="_blank"
           href="https://gihub.com/fredmaiaarantes/meteorjs-template"
