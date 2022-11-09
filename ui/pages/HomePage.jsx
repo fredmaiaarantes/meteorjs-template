@@ -1,10 +1,9 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { useHistory } from 'react-router-dom';
-import { RoutePaths } from '../common/Routes';
 import { useTracker } from 'meteor/react-meteor-data';
 
 export const HomePage = () => {
+  const userId = useTracker(() => Meteor.userId());
   return (
     <div className="bg-gradient-to-r from-indigo-900 to-indigo-700">
       <div className="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
@@ -16,6 +15,11 @@ export const HomePage = () => {
           Starter template built with MeteorJS + React with SSR + Tailwind.
           Authentication with Passwordless is ready to use, try Signing In.
         </p>
+        {userId ? (
+          <p className="mt-4 text-xl leading-8 text-indigo-200">
+            You can see this message only if you are loggerd in.
+          </p>
+        ) : null}
         <a
           target="_blank"
           href="https://gihub.com/fredmaiaarantes/meteorjs-template"

@@ -4,10 +4,11 @@
   "scripts": {
     "start": "meteor --exclude-archs web.browser.legacy,web.cordova --settings private/settings.dev.json",
     "deploy": "meteor deploy --settings private/settings.dev.json --exclude-archs \"web.browser.legacy, web.cordova\" meteorjstemplate.meteorapp.com --free --mongo",
+    "deploy-cached": "meteor deploy --settings private/settings.dev.json --exclude-archs \"web.browser.legacy, web.cordova\" meteorjstemplate.meteorapp.com --free --mongo --cache-build",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.4",
+    "@babel/runtime": "^7.20.1",
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
     "autoprefixer": "^10.4.7",

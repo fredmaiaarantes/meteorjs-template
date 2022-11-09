@@ -7,7 +7,8 @@ Start your Meteor project with this template if you want to use React with SSR a
 ## What is it?
 
 It's a template project ready for you to implement your business idea. It includes:
-- sign-up and sign-in using email (passwordless)
+
+- sign-in using email (passwordless)
 - router setup with SSR
 - basic styles
 - email system
@@ -15,6 +16,7 @@ It's a template project ready for you to implement your business idea. It includ
 ## Dependencies
 
 ### Npm packages for React:
+
 - react
 - react-dom
 - react-router-dom
@@ -47,9 +49,10 @@ It's a template project ready for you to implement your business idea. It includ
 #### Sending emails with Postmark
 
 - Create a [Postmark account](https://postmarkapp.com/signup) 
-  - replace the following property with your postmark API KEY in the settings: `YOUR_API_TOKEN`
+  - Replace the `YOUR_API_TOKEN` property with your postmark API KEY in the settings file.
 - Follow the steps to verify your domain in their website
-  - replace the following property with your desired `from` for the emails in the settings: `YOUR_FROM_EMAIL@yourdomain.com`
+  - Replace the property `YOUR_FROM_EMAIL@yourdomain.com` with your desired `from` for the emails in the settings.
+- Locally, in you dev environment, you can see the generate token in the logs.
 
 #### Deploy on Meteor Cloud
 
@@ -62,6 +65,7 @@ Option 2: Use the CLI and run `meteor npm run deploy`. Remember to change the do
 Follow our changes reading our [CHANGELOG](CHANGELOG.md).
 
 ## Features
-- Home Page with TailwindCSS
+
+- Pages styled with TailwindCSS and SSR
 - Authentication Page with passwordless
 - Deploy on Meteor Cloud running `meteor npm run deploy`
