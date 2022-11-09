@@ -5,7 +5,7 @@
     "start": "meteor --exclude-archs web.browser.legacy,web.cordova --settings private/settings.dev.json",
     "deploy": "meteor deploy --settings private/settings.dev.json --exclude-archs \"web.browser.legacy, web.cordova\" meteorjstemplate.meteorapp.com --free --mongo",
     "deploy-cached": "meteor deploy --settings private/settings.dev.json --exclude-archs \"web.browser.legacy, web.cordova\" meteorjstemplate.meteorapp.com --free --mongo --cache-build",
-    "visualize": "meteor --production --extra-packages bundle-visualizer"
+    "visualize": "meteor --settings private/settings.dev.json --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
     "@babel/runtime": "^7.20.1",
