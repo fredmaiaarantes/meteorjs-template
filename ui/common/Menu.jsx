@@ -42,7 +42,7 @@ export const Menu = () => {
                     ) : (
                     <a
                         onClick={() => history.push(RoutePaths.AUTH)}
-                        className="cursor-pointer inline-block rounded-md border border-transparent bg-indigo-500 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
+                        className="cursor-pointer inline-block rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
                     >
                         Sign In
                         <span aria-hidden="true"> &rarr;</span>
