@@ -9,18 +9,18 @@
         "./*"
       ],
       "meteor/mongo": [
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/local_collection_driver.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/collection.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/connection_options.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/doc_fetcher.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/mongo_driver.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/mongo_utils.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/observe_multiplex.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/oplog_observe_driver.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/oplog_tailing.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/oplog_v2_converter.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/polling_observe_driver.js",
-        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.15.0/web.browser/remote_collection_driver.js"
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/local_collection_driver.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/collection.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/connection_options.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/doc_fetcher.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/mongo_driver.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/mongo_utils.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/observe_multiplex.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/oplog_observe_driver.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/oplog_tailing.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/oplog_v2_converter.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/polling_observe_driver.js",
+        "/Users/fredmaiaarantes/.meteor/packages/mongo/1.16.0/web.browser/remote_collection_driver.js"
       ],
       "meteor/reactive-var": [
         "/Users/fredmaiaarantes/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
@@ -45,7 +45,7 @@
         "/Users/fredmaiaarantes/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
       ],
       "meteor/react-meteor-data": [
-        "/Users/fredmaiaarantes/.meteor/packages/react-meteor-data/2.4.0/web.browser/index.js"
+        "/Users/fredmaiaarantes/.meteor/packages/react-meteor-data/2.5.3/web.browser/index.js"
       ],
       "meteor/quave:collections": [
         "/Users/fredmaiaarantes/.meteor/packages/quave_collections/1.0.2/web.browser/collections.js",
@@ -57,7 +57,7 @@
         "/Users/fredmaiaarantes/.meteor/packages/quave_accounts-passwordless-react/2.0.0/web.browser/Passwordless.js"
       ],
       "meteor/quave:email-postmark": [
-        "/Users/fredmaiaarantes/.meteor/packages/quave_email-postmark/1.0.0/web.browser/server.js"
+        "/Users/fredmaiaarantes/.meteor/packages/quave_email-postmark/1.0.1/web.browser/server.js"
       ],
       "meteor/quave:logged-user-react": [
         "/Users/fredmaiaarantes/.meteor/packages/quave_logged-user-react/1.0.0/web.browser/logged-user-react.js"
