@@ -1,8 +1,8 @@
 # MeteorJS template
 
-[MeteorJS](https://meteor.com)
+Check the deployed Demo App: [https://meteorjstemplate.meteorapp.com/](https://meteorjstemplate.meteorapp.com)
 
-Start your Meteor project with this template if you want to use React with SSR and TailwindCSS.
+Start your [MeteorJS](https://meteor.com) project with this template if you want to use React with SSR and TailwindCSS.
 
 ## What is it?
 
