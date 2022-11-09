@@ -1,5 +1,6 @@
 # MeteorJS template
 
+![Lighthouse Report](README-Assets/meteorjs-template.png)
 Check the deployed Demo App: [https://meteorjstemplate.meteorapp.com/](https://meteorjstemplate.meteorapp.com)
 
 Start your [MeteorJS](https://meteor.com) project with this template if you want to use React with SSR and TailwindCSS.
@@ -12,6 +13,8 @@ It's a template project ready for you to implement your business idea. It includ
 - router setup with SSR
 - basic styles
 - email system
+- 100 Score on Lighthouse
+![Lighthouse Report](README-Assets/lighthouse-score.png)
 
 ## Dependencies
 
