@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTracker } from 'meteor/react-meteor-data';
-import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { RoutePaths } from './Routes';
 
 const navigation = [
@@ -11,7 +11,6 @@ const navigation = [
 ]
 
 export const Menu = () => {
-    const history = useHistory();
     const userId = useTracker(() => Meteor.userId());
     return (
         <header className="bg-indigo-900">
@@ -20,7 +19,7 @@ export const Menu = () => {
                 <div className="flex items-center">
                     <a href="/">
                     <span className="sr-only">MeteorJS</span>
-                        <img className="h-10 w-auto" src="/images/meteor-logo-sm.png" alt="MeteorJS Logo" />
+                        <img className="h-10 w-10" src="/images/meteor-logo-sm.png" alt="MeteorJS Logo" />
                     </a>
                     <div className="ml-10 hidden space-x-8 lg:block">
                     {navigation.map((link) => (
@@ -32,21 +31,20 @@ export const Menu = () => {
                 </div>
                 <div className="ml-10 space-x-4">
                 {userId ? (
-                    <a
+                    <button
                         onClick={() => Meteor.logout()}
                         className="cursor-pointer text-base font-medium text-gray-200 hover:text-gray-100"
                     >
                         Log out
                         <span aria-hidden="true"> &larr;</span>
-                    </a>
+                    </button>
                     ) : (
-                    <a
-                        onClick={() => history.push(RoutePaths.AUTH)}
+                    <Link to={RoutePaths.AUTH}
                         className="cursor-pointer inline-block rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
                     >
                         Sign In
                         <span aria-hidden="true"> &rarr;</span>
-                    </a>
+                    </Link>
                     )}
                 </div>
                 </div>
