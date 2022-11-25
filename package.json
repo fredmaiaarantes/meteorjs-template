@@ -15,7 +15,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.3.0"
+    "react-router-dom": "^5.3.0",
+    "tailwindcss": "^3.2.2",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "postcss-load-config": "^4.0.1"
   },
   "meteor": {
     "mainModule": {
@@ -26,10 +30,6 @@
   "devDependencies": {
     "@types/meteor": "^2.8.1",
     "@types/react": "^17.0.52",
-    "@types/react-dom": "^17.0.18",
-    "tailwindcss": "^3.2.2",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.18",
-    "postcss-load-config": "^4.0.1"
+    "@types/react-dom": "^17.0.18"
   }
 }
