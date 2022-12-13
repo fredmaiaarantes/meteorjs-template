@@ -38,7 +38,7 @@ export const HomePage = () => {
         <a
           target="_blank"
           href="https://university.meteor.com"
-          className="mt-8 ml-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-gray-200 px-5 py-3 text-base font-medium text-indigo-800 hover:bg-gray-50 sm:w-auto"
+          className="mt-8 md:ml-2 inline-flex w-full items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium text-white border-solid border-white hover:bg-indigo-600 sm:w-auto"
         >
           Learn MeteorJS
         </a>
