@@ -8,17 +8,17 @@
     "visualize": "meteor --settings private/settings.dev.json --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.1",
-    "@headlessui/react": "^1.7.4",
-    "@heroicons/react": "^2.0.13",
+    "@babel/runtime": "^7.21.5",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
     "meteor-node-stubs": "^1.2.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.3.0",
-    "tailwindcss": "^3.2.2",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.18",
+    "react-router-dom": "^5.3.4",
+    "tailwindcss": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
     "postcss-load-config": "^4.0.1"
   },
   "meteor": {
@@ -28,8 +28,8 @@
     }
   },
   "devDependencies": {
-    "@types/meteor": "^2.8.1",
-    "@types/react": "^17.0.52",
-    "@types/react-dom": "^17.0.18"
+    "@types/meteor": "^2.9.2",
+    "@types/react": "^17.0.59",
+    "@types/react-dom": "^17.0.20"
   }
 }
