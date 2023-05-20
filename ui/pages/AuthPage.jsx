@@ -1,6 +1,7 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { useHistory, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Passwordless } from 'meteor/quave:accounts-passwordless-react';
 import { RoutePaths } from '../common/Routes';
 import { useTracker } from 'meteor/react-meteor-data';
@@ -10,10 +11,10 @@ import { useTracker } from 'meteor/react-meteor-data';
 
 export const AuthPage = () => {
   const userId = useTracker(() => Meteor.userId());
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const onEnterToken = () => {
-    history.push(RoutePaths.HOME);
+    navigate(RoutePaths.HOME);
   };
 
   if (userId) {

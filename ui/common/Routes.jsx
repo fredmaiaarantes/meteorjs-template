@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { AuthPage } from '../pages/AuthPage';
 import { HomePage } from '../pages/HomePage';
 import { NotFoundPage } from '../pages/NotFoundPage';
@@ -11,15 +11,13 @@ export const RoutePaths = {
 };
 
 export const AppRoutes = () => (
-  <Switch>
-    <Route exact path={RoutePaths.HOME}>
-      <Layout children={<HomePage />} />
+  <Routes>
+    <Route path={RoutePaths.HOME} element={<Layout />}>
+      <Route index element={<HomePage />} />
     </Route>
-    <Route exact path={RoutePaths.AUTH}>
-      <Layout children={<AuthPage />} />
+    <Route path={RoutePaths.AUTH} element={<Layout />}>
+      <Route index element={<AuthPage />} />
     </Route>
-    <Route path="*">
-      <NotFoundPage />
-    </Route>
-  </Switch>
+    <Route exact path="*" element={<NotFoundPage />} />
+  </Routes>
 );
