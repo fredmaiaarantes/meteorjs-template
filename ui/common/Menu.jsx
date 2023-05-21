@@ -31,13 +31,18 @@ export const Menu = () => {
                 </div>
                 <div className="ml-10 space-x-4">
                 {userId ? (
-                    <button
-                        onClick={() => Meteor.logout()}
-                        className="cursor-pointer text-base font-medium text-gray-200 hover:text-gray-100"
-                    >
-                        Log out
-                        <span aria-hidden="true"> &larr;</span>
-                    </button>
+                      <>
+                          <a href={RoutePaths.USER} className="text-base font-medium text-white hover:text-indigo-50">
+                              User Details
+                          </a>
+                          <button
+                            onClick={() => Meteor.logout()}
+                            className="cursor-pointer text-base pl-2 font-medium text-white hover:text-gray-100"
+                          >
+                              Log out
+                              <span aria-hidden="true"> &larr;</span>
+                          </button>
+                      </>
                     ) : (
                     <Link to={RoutePaths.AUTH}
                         className="cursor-pointer inline-block rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"

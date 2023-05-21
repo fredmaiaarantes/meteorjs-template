@@ -14,7 +14,7 @@ export const AuthPage = () => {
   const navigate = useNavigate();
 
   const onEnterToken = () => {
-    navigate(RoutePaths.HOME);
+    navigate(RoutePaths.USER);
   };
 
   if (userId) {
