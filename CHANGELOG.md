@@ -11,5 +11,10 @@
 
 ## 0.0.3 (2023-05-19)
 
-- Update dependencies and Meteor.js to 2.12.
-- Update SSR package to version 4 and React Router to version 6.
+- Updated dependencies and Meteor.js to 2.12.
+- Updated SSR package to version 4 and React Router to version 6.
+
+## 0.0.4 (2023-05-21)
+
+- Added User Details page.
+- Added component to render routes only to logged users.
